@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+body {
+  background-image: url(134341477549091301.jpg);
+}
+.nav {
+  border: 3px solid rgb(150, 140, 140);
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+.links {
+  padding: 5px;
+  background-color: rgb(36, 36, 175);
+  color: #ffffff;
+  border: 3px solid rgb(175, 23, 23);
+  transition: all 0.9s;
+  border-radius: 70%;
+  width: 63%;
+}
+.links:hover {
+  background-color: rgb(22, 182, 22);
+  color: rgb(211, 18, 18);
+  transform: scale(1.9) rotate(360deg);
+}
+.h-one {
+  text-align: center;
+  animation: headmovement 2s infinite;
+  border-radius: 20%;
+  transition: all 9s;
+}
+@keyframes headmovement {
+  0% {
+    transform: scale(0.5);
+    background-color: red;
+  }
+  50% {
+    transform: scale(1) translateY(-120px);
+    background-color: blue;
+  }
+  100% {
+    transform: scale(1.9);
+    background-color: green;
+  }
+}
+.maki {
+  background-color: red;
+  padding: 10px;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.section {
+  text-align: center;
+  background-color: rgb(59, 48, 70);
+  margin: 20px;
+  color: white;
+  border: 2px solid red;
+}
+h2 {
+  text-decoration: underline;
+}
+.footer {
+  text-align: center;
+  background-color: skyblue;
+  color: #ffffff;
+  font-weight: bolder;
+  border-radius: 10%;
+}
+.aside-class {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .links {
+    width: 100%;
+    font-size: 14px;
+  }
+}

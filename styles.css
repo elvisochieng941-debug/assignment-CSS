@@ -41,7 +41,7 @@ body {
     background-color: red;
   }
   50% {
-    transform: scale(1) translateY(-120px);
+    transform: scale(1) rotateX(360deg);
     background-color: blue;
   }
   100% {

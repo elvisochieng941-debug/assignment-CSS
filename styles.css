@@ -90,6 +90,7 @@ h2 {
     height: 240;
   }
   .h-one {
-    width: 90%;
+    width: 50%;
+    font-weight: none;
   }
 }

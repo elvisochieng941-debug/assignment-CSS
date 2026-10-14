@@ -92,5 +92,15 @@ h2 {
   .h-one {
     width: 50%;
     font-weight: none;
+    text-align: center;
+    padding: auto;
   }
+}
+.clinks {
+  color: green;
+}
+button:hover,
+.clinks:hover {
+  background-color: blue;
+  color: red;
 }

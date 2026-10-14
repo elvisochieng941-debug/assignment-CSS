@@ -89,11 +89,10 @@ h2 {
     width: 100%;
     height: 240;
   }
-  .h-one {
-    width: 50%;
-    font-weight: none;
-    text-align: center;
-    padding: auto;
+  .h-one-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .clinks {
@@ -103,4 +102,5 @@ button:hover,
 .clinks:hover {
   background-color: blue;
   color: red;
+  transition: all 0.9s;
 }

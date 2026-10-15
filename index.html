@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>take home assignment</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -10,7 +12,9 @@
     </aside>
   </div>
   <body>
-    <h1 class="h-one">WELCOME TO MY PORTFOLIO</h1>
+    <div class="h-one-div">
+      <h1 class="h-one">WELCOME TO MY PORTFOLIO</h1>
+    </div>
     <nav class="nav">
       <a class="links" href="#home">Home</a>
       <a class="links" href="#about">About</a>
@@ -52,9 +56,24 @@
       <section id="contact" class="section">
         <h2>My Contacts</h2>
         <address>
-          <p>Tel:0200000000</p>
+          <p>
+            <button>
+              <a class="clinks" href="tel:254768241259"
+                >Click here to Call Me</a
+              >
+            </button>
+          </p>
           <p>P.O. Box 88897-78789, Nashville</p>
-          <p>Email:example@mail.com</p>
+          <p>
+            <button>
+              <a
+                class="clinks"
+                href="
+              mailto:elvisouma705@gmail.com"
+                >Click here to Send me an email.</a
+              >
+            </button>
+          </p>
           <p>opposite mjini police station</p>
         </address>
       </section>
@@ -68,6 +87,7 @@
         </audio>
 
         <iframe
+          id="iframe"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/InpJ0vJ8c4I?si=4XLq4BUexUX7Y_p4"
